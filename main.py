@@ -7,7 +7,7 @@ import google.generativeai as genai
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
-from google.api_python_client import discovery
+from googleapiclient import discovery
 import requests
 from elevenlabs import ElevenLabs
 import time
